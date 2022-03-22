@@ -107,7 +107,7 @@ PYTEST_PLUGINS="pytest_flake8" \
 %if %{with tests}
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 \
 PYTEST_PLUGINS="pytest_flake8" \
-%{__python3} -m pytest tests -k 'not test_classic_package'
+%{__python3} -m pytest tests -k 'not test_classic_package and not test_meta_for_this_package'
 %endif
 %endif
 
