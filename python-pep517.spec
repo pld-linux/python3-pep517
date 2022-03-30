@@ -9,7 +9,7 @@ Summary:	Wrappers to build Python packages using PEP 517 hooks
 Summary(pl.UTF-8):	Opakowanie do budowania pakietów Pythona przy użyciu uchwytów PEP 517
 Name:		python-pep517
 Version:	0.10.0
-Release:	3
+Release:	4
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pep517/
